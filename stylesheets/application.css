@@ -1,0 +1,210 @@
+
+body {
+  background: #000;
+  color:#FEFAFA;
+  font-family: helvetica, arial, sans-serif;
+  margin: 20px;
+}
+p, div, span, li {
+  font-size: 13px;
+}
+
+#header {
+  width: 1030px;
+  clear: both;
+  padding:0 10px;
+  margin-bottom:10px;
+  color: #FEFAFA;
+}
+#header h1 {
+  color: #FFFF33;
+}
+
+#menu {
+  float: left;
+  position:relative;
+  width: 180px;
+  background-color: transparent;
+  color: #FEFAFA;
+}
+#menu ul {
+  margin-left:10px;
+  padding-left:10px;
+}
+a,
+a:visited,
+a:hover {
+  color: #FEFAFA;
+}
+  
+#contentbounds {
+	clear:both;
+	width:1050px;
+	margin:0;
+	padding:0;
+}
+
+#content {
+  float: left;
+  padding:25px 25px;
+  width: 800px;
+  height: 632px; //493px;
+  background: transparent url(../images/cm-master.gif) no-repeat;
+}
+
+#lowercontent {
+  padding:0 0 10px 0;
+  width: 800px;
+  margin-top:120px;
+}
+
+#adcopy {
+  margin-left: 850px;
+  padding-left: 20px;
+  width: 180px;
+  background-color: transparent;
+  color: #FEFAFA;
+}
+  
+
+#controls {
+	margin:5px 5px 5px 25px;
+	height: 90px;
+}
+
+#diffTrack {
+	float:left;
+	margin-top:10px;
+	margin-left:6px;
+	width: 255px;
+	height: 56px;
+	background-image: url(../images/cm-part-difficulty-track.gif);
+	background-repeat: no-repeat;
+	cursor: hand;
+}
+#diffHandle {
+	margin-top: 0;
+	cursor: hand;
+}
+
+#speedbounds {
+	float:left;
+	margin:15px 49px 21px 46px;
+	
+}
+#speed {
+	width:54px;
+	height:54px;
+	background:transparent url(../images/cm-part-speed-knob.gif) no-repeat scroll 0 0;
+}
+
+#speedtrack {
+	width:54px;
+	height:54px;
+}
+#speedhandle {
+	width:4px;
+	height:54px;
+}
+#modebounds {
+	float:left;
+	margin:12px 37px 21px 30px;
+}
+
+#mode {
+	margin:0;
+	width:110px;
+	height:62px;
+	overflow:hidden;
+	text-indent:-999em;
+	background:transparent url(../images/cm-part-mode-leds.gif) no-repeat scroll 0 0;
+}
+
+#playbounds {
+	margin:3px 0 0 0;
+	float:left;
+	width:152px;
+	height:39px;
+}
+#play {
+	width:152px;
+	height:39px;
+	background:transparent url(../images/cm-part-play-controls.gif) no-repeat scroll 0 0;
+}
+#play #stop,
+#play #pause {
+	float:left;
+	width:50px;
+	height:39px;
+}
+#play #start {
+	margin-left:100px;
+	width:50px;
+	height:39px;
+}
+
+
+#timer {
+	margin:12px 4px 0 60px;
+	text-align:right;
+	font-family: courier,monospace;
+	font-size: 13px;
+}
+
+#crtbounds {
+	margin:57px 0 0 417px;
+	height:274px;
+}
+#crt {
+	margin:0;
+	width: 321px;
+	height: 274px;
+	background-image: url(../images/cm-part-crt.gif);
+	background-repeat: no-repeat;
+}
+
+#chord {
+	float: left;
+	width:147px;
+	xpadding-top:75px;
+	xpadding-left:0;
+	xtext-align:center;
+	padding:75px 87px 0 87px;
+	margin:0;
+	color:#000;
+	font-family: helvetica, arial, sans-serif;
+	font-size:42px;
+	font-weight:bold;
+}
+#chord xdiv {
+	float:left;
+	width:147px;
+	xxpadding:0px 87px 0 87px;
+	margin:0;
+	text-align:left;
+}
+#chord .label {
+	padding:0;
+	xpadding-top:75px;
+	xpadding-left:0;
+	xwidth:321px;
+	text-align:center;
+	color:#000;
+	font-family: helvetica, arial, sans-serif;
+	font-size:42px;
+	font-weight:bold;
+}}
+
+#footer {
+  width: 1050px;
+  clear: both;
+}
+
+
+
+
+pre {
+  background-color: #000;
+  color: #EEE;
+  padding: 10px;
+} 
